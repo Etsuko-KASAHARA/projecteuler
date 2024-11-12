@@ -6,7 +6,7 @@
 
 
 def palindrome_number (a):
-    
+    a = []
     for num1 in range(999, 99, -1):
         for num2 in range(999, 99, -1):
             result = str(num1 * num2)
@@ -15,8 +15,8 @@ def palindrome_number (a):
     return max(a) 
 
 
-a = []
-print(palindrome_number (a))     
+aa = []
+print(palindrome_number (aa))     
 
 ##b = 1234
 ##print((str(b))[::-1])
