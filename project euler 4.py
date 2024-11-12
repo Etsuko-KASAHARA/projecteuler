@@ -5,7 +5,7 @@
 
 
 
-def palindrome_number (a):
+def palindrome_number ():
     a = []
     for num1 in range(999, 99, -1):
         for num2 in range(999, 99, -1):
@@ -15,8 +15,8 @@ def palindrome_number (a):
     return max(a) 
 
 
-a = []
-print(palindrome_number (a))     
+
+print(palindrome_number ())     
 
 ##b = 1234
 ##print((str(b))[::-1])
