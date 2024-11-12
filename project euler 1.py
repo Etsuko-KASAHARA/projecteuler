@@ -5,7 +5,7 @@
 
 
 
-def sum (x):
+def sum_multiples (x):
     result = 0
     first_num = 0
     while first_num < x:
@@ -13,13 +13,10 @@ def sum (x):
             if first_num % 3 == 0 or first_num % 5 == 0:
                 
                 result += first_num
-                first_num += 1
-            else:
-                first_num += 1
-
-        
+            first_num += 1
             
+
     return (result)
     
 
-print(sum(1000))    
+print (sum_multiples(1000))    
