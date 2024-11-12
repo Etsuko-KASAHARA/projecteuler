@@ -15,8 +15,8 @@ def palindrome_number (a):
     return max(a) 
 
 
-aa = []
-print(palindrome_number (aa))     
+a = []
+print(palindrome_number (a))     
 
 ##b = 1234
 ##print((str(b))[::-1])
