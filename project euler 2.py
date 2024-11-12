@@ -14,7 +14,6 @@ def fibonacci (num1, num2):
         next_num = total_num
     return result_list
 
-
 def sum_even(list_items):
     result = 0
     for item in list_items:
