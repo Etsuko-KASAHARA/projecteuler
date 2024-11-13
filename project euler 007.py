@@ -5,13 +5,19 @@
 
 def prime_number():
     result = []
-    while len(result) <=6:
-        for num in range(2,1000,1):
-            i = 2
-            while i*i < num:
-                if num % i != 0:
-                    result.append(num)
-                    i += 1
-    return max(result)
+    
+    for num in range(2,10000000,1):
+        is_prime = True
+        for i in range(2, int(num ** 0.5)+1):
+            if num %i == 0:
+                is_prime = False
+                break
+        if is_prime:
+            result.append(num)
+            if len(result) == 10001:
+                    break
+    return max(result)  
+        
 
 print(prime_number())                    
+
