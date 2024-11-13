@@ -62,7 +62,8 @@ def euler2(prime_nums):
             how_many[num] = 1    
     for num in how_many:
         result *= num ** how_many[num]
-    return how_many, result            
+    return  result     
+    ##how_many,       
     
 
 ##print(euler005())

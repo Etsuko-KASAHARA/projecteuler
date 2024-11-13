@@ -7,10 +7,16 @@
 ##find the difference between the sum of the squares of the first one hundred natural numbers the square of the sum
 
 def square():
-    result = 0
-    for num in range(1,11,1):
-        result += num**2
-    return
+    square_first = 0
+    square_later=0
+    for num in range(1,101,1):
+        square_first += num ** 2
+        square_later += num
+
+    square_later **= 2
+    result = square_later - square_first
+    return result
+
 
 
 print(square())        
