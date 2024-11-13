@@ -32,8 +32,9 @@ def number(y):
 print(number(10000000))   
 """
 
-
+##
 def euler005():
+
     prime_nums=[]
     divisor = 2
     for num in range(1,21):
@@ -61,13 +62,11 @@ def euler2(prime_nums):
             how_many[num] = 1    
     for num in how_many:
         result *= num ** how_many[num]
-
-                
     return how_many, result            
     
 
-print(euler005())
-print((euler2(euler005())))
+##print(euler005())
+##print((euler2(euler005())))
 
 
 
