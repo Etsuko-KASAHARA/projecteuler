@@ -36,6 +36,7 @@ def euler11():
     return False
     ##return  result, result_divisor
 
+##inifinite rooooop
 print(euler11())
 """
 
