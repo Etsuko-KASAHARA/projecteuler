@@ -85,6 +85,7 @@ def left(all_lines):
     lines = [list(map(int, line.split())) for line in all_lines]
     result = []
     for i in lines:
+       
         max_result = 0
         for j in range(len(i) -3 ):
             result_num = i[j] * i[j + 1] * i[j + 2] * i[j + 3]    
